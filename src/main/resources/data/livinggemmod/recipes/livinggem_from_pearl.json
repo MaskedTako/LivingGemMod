@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category" : "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:sand"
+    },
+    "0": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "@": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "~": {
+      "item": "minecraft:kelp"
+    },
+    "o": {
+      "item": "livinggemmod:pearl"
+    }
+  },
+  "pattern": [
+    "###",
+    "@o@",
+    "~0~"
+  ],
+  "result": {
+    "item": "livinggemmod:living_pearl"
+  }
+}

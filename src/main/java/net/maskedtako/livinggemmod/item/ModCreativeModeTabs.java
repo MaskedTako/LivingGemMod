@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PEARL.get());
                         output.accept(ModBlocks.PEARL_EMBEDDED_SANDSTONE.get());
                         output.accept(ModBlocks.PEARL_EMBEDDED_SAND.get());
+                        output.accept(ModItems.LIVING_PEARL.get());
 
                     })
                     .build());

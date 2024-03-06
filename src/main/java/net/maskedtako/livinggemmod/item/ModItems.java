@@ -14,6 +14,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> PEARL = ITEMS.register("pearl",
             ()-> new Item(new Item.Properties()));
+    public static final  RegistryObject<Item> LIVING_PEARL = ITEMS.register("living_pearl",
+            ()-> new Item(new Item.Properties()));
 
     public static void register (IEventBus eventBus){ITEMS.register(eventBus);}
 }
