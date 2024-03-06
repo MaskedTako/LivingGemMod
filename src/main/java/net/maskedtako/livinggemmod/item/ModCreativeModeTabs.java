@@ -1,6 +1,7 @@
 package net.maskedtako.livinggemmod.item;
 
 import net.maskedtako.livinggemmod.LivingGemMod;
+import net.maskedtako.livinggemmod.block.custom.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
 
                         output.accept(ModItems.PEARL.get());
+                        output.accept(ModBlocks.PEARL_EMBEDDED_SANDSTONE.get());
+                        output.accept(ModBlocks.PEARL_EMBEDDED_SAND.get());
 
                     })
                     .build());

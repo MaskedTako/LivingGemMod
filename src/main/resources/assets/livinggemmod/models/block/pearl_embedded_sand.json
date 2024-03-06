@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "livinggemmod:block/pearl_embedded_sand"
+  }
+}

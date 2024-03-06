@@ -1,3 +1,5 @@
 {
-  "item.livinggemmod.pearl" : "Pearl"
+  "item.livinggemmod.pearl" : "Pearl",
+  "block.livinggemmod.pearl_embedded_sandstone" : "Pearl embedded in Sandstone",
+  "block.livinggemmod.pearl_embedded_sand" : "Pearl embedded in Sand"
 }

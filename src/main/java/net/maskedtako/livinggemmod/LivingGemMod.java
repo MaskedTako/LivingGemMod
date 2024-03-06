@@ -1,6 +1,7 @@
 package net.maskedtako.livinggemmod;
 
 import com.mojang.logging.LogUtils;
+import net.maskedtako.livinggemmod.block.custom.ModBlocks;
 import net.maskedtako.livinggemmod.item.ModCreativeModeTabs;
 import net.maskedtako.livinggemmod.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -28,8 +29,10 @@ public class LivingGemMod {
 
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
+
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
